@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Exercises">
+      <UniqueIdentifier>{4b501b54-016d-40b4-ba2a-55d45d16daa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Getting started">
+      <UniqueIdentifier>{42692538-0a31-43da-bc71-6fa4ffc5a689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders source code">
+      <UniqueIdentifier>{60ee7429-9a7c-43fb-9e52-f59383ab256d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{0d624943-c672-4252-b25c-828c2915294c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes implementations">
+      <UniqueIdentifier>{8c638ed5-397f-4287-9e9f-7ae9c58c276e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes headers">
+      <UniqueIdentifier>{c2303fbc-d1cb-4432-82d9-626488afce98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders source code\Fragment shaders">
+      <UniqueIdentifier>{150ab999-d2aa-4c28-86e5-4f69bb3ae6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders source code\Vertex shaders">
+      <UniqueIdentifier>{dc787866-81fc-425a-ab9b-7f6cae832b2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hello_triangle.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_indexed.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window_clear.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_exercise1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_exercise2.1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_exercise2.2.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_exercise3.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_exercise4.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_uniform.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_interpolation.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_class.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_exercise1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="3dTriangle.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_exercise2.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_exercise4.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_exercise3.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders_exercise5.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files\Classes implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Classes implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="textures.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files\Classes implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_combined.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_multiple_textures_in_one_drawing.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_exercise1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_exercise2.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_exercise3.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_exercise4.1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="textures_exercise4.2.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations_over_time.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations_exercise1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations_exercise2.1.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations_exercise2.2.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations_exercise3%28Sierpinski triangle fractal%29.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_sytems.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_orthographic_projection.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_depth.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_multiple.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_exercise1_and_exercise2.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_exercise3.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment_shader.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </None>
+    <None Include="vertex_shader.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragment_shader_for_shaders_exercise3.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_shaders_exercise5.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_textures_multiple_textures_in_one_drawing.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_textures.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_textures_combined.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_shaders_exercise1.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_shaders_exercise2.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_shaders_exercise3.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_shaders_exercise4.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_shaders_exercise5.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_textures.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_textures_exercise1.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_textures_exercise4.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_transformations.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_transformations.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_transformations_exercise3.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_transformations_exercise3.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_coordinate_systems.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_coordinate_systems.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+    <Text Include="fragment_shader_for_coordinate_systems_depth.txt">
+      <Filter>Source Files\Shaders source code\Fragment shaders</Filter>
+    </Text>
+    <Text Include="vertex_shader_for_coordinate_systems_depth.txt">
+      <Filter>Source Files\Shaders source code\Vertex shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files\Classes headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

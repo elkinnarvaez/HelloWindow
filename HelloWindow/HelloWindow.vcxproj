@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d045b1df-f671-4927-a29c-3bb10eada5ba}</ProjectGuid>
+    <RootNamespace>HelloWindow</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\OpenGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OpenGL\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3dTriangle.cpp" />
+    <ClCompile Include="coordinate_systems_depth.cpp" />
+    <ClCompile Include="coordinate_systems_exercise1_and_exercise2.cpp" />
+    <ClCompile Include="coordinate_systems_exercise3.cpp" />
+    <ClCompile Include="coordinate_systems_multiple.cpp" />
+    <ClCompile Include="coordinate_sytems.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="hello_triangle.cpp" />
+    <ClCompile Include="hello_triangle_exercise1.cpp" />
+    <ClCompile Include="hello_triangle_exercise2.1.cpp" />
+    <ClCompile Include="hello_triangle_exercise2.2.cpp" />
+    <ClCompile Include="hello_triangle_exercise3.cpp" />
+    <ClCompile Include="hello_triangle_exercise4.cpp" />
+    <ClCompile Include="hello_triangle_indexed.cpp" />
+    <ClCompile Include="hello_window.cpp" />
+    <ClCompile Include="hello_window_clear.cpp" />
+    <ClCompile Include="coordinate_systems_orthographic_projection.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="shaders.cpp" />
+    <ClCompile Include="shaders_exercise1.cpp" />
+    <ClCompile Include="shaders_exercise2.cpp" />
+    <ClCompile Include="shaders_exercise4.cpp" />
+    <ClCompile Include="shaders_exercise5.cpp" />
+    <ClCompile Include="shaders_interpolation.cpp" />
+    <ClCompile Include="shaders_uniform.cpp" />
+    <ClCompile Include="shader_class.cpp" />
+    <ClCompile Include="shaders_exercise3.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="textures.cpp" />
+    <ClCompile Include="textures_combined.cpp" />
+    <ClCompile Include="textures_exercise1.cpp" />
+    <ClCompile Include="textures_exercise2.cpp" />
+    <ClCompile Include="textures_exercise3.cpp" />
+    <ClCompile Include="textures_exercise4.1.cpp" />
+    <ClCompile Include="textures_exercise4.2.cpp" />
+    <ClCompile Include="textures_multiple_textures_in_one_drawing.cpp" />
+    <ClCompile Include="transformations.cpp" />
+    <ClCompile Include="transformations_exercise1.cpp" />
+    <ClCompile Include="transformations_exercise2.1.cpp" />
+    <ClCompile Include="transformations_exercise2.2.cpp" />
+    <ClCompile Include="transformations_exercise3%28Sierpinski triangle fractal%29.cpp" />
+    <ClCompile Include="transformations_over_time.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment_shader.txt" />
+    <None Include="vertex_shader.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragment_shader_for_coordinate_systems.txt" />
+    <Text Include="fragment_shader_for_coordinate_systems_depth.txt" />
+    <Text Include="fragment_shader_for_shaders_exercise3.txt" />
+    <Text Include="fragment_shader_for_shaders_exercise5.txt" />
+    <Text Include="fragment_shader_for_textures.txt" />
+    <Text Include="fragment_shader_for_textures_combined.txt" />
+    <Text Include="fragment_shader_for_textures_exercise1.txt" />
+    <Text Include="fragment_shader_for_textures_exercise4.txt" />
+    <Text Include="fragment_shader_for_textures_multiple_textures_in_one_drawing.txt" />
+    <Text Include="fragment_shader_for_transformations.txt" />
+    <Text Include="fragment_shader_for_transformations_exercise3.txt" />
+    <Text Include="vertex_shader_for_coordinate_systems.txt" />
+    <Text Include="vertex_shader_for_coordinate_systems_depth.txt" />
+    <Text Include="vertex_shader_for_shaders_exercise2.txt" />
+    <Text Include="vertex_shader_for_shaders_exercise1.txt" />
+    <Text Include="vertex_shader_for_shaders_exercise3.txt" />
+    <Text Include="vertex_shader_for_shaders_exercise4.txt" />
+    <Text Include="vertex_shader_for_shaders_exercise5.txt" />
+    <Text Include="vertex_shader_for_textures.txt" />
+    <Text Include="vertex_shader_for_transformations.txt" />
+    <Text Include="vertex_shader_for_transformations_exercise3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
