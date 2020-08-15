@@ -146,6 +146,8 @@
     <ClCompile Include="camera_circle.cpp" />
     <ClCompile Include="camera_keyboard.cpp" />
     <ClCompile Include="camera_keyboard_delta_time.cpp" />
+    <ClCompile Include="camera_mouse.cpp" />
+    <ClCompile Include="camera_mouse_zoom.cpp" />
     <ClCompile Include="coordinate_systems_depth.cpp" />
     <ClCompile Include="coordinate_systems_exercise1_and_exercise2.cpp" />
     <ClCompile Include="coordinate_systems_exercise3.cpp" />

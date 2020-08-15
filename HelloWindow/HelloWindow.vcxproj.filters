@@ -174,6 +174,12 @@
     <ClCompile Include="camera_keyboard_delta_time.cpp">
       <Filter>Source Files\Getting started</Filter>
     </ClCompile>
+    <ClCompile Include="camera_mouse.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_mouse_zoom.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment_shader.txt">
