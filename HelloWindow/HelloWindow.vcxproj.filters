@@ -180,6 +180,12 @@
     <ClCompile Include="camera_mouse_zoom.cpp">
       <Filter>Source Files\Getting started</Filter>
     </ClCompile>
+    <ClCompile Include="camera_class.cpp">
+      <Filter>Source Files\Getting started</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Classes implementations</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment_shader.txt">

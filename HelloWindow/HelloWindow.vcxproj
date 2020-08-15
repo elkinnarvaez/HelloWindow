@@ -143,7 +143,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="3dTriangle.cpp" />
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="camera_circle.cpp" />
+    <ClCompile Include="camera_class.cpp" />
     <ClCompile Include="camera_keyboard.cpp" />
     <ClCompile Include="camera_keyboard_delta_time.cpp" />
     <ClCompile Include="camera_mouse.cpp" />
