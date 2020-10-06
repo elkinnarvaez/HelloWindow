@@ -1,3 +1,5 @@
+/*
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
@@ -277,7 +279,7 @@ int main() {
         //create transformations
         glm::mat4 projection = glm::mat4(1.0);
         projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
-        //projection = glm::ortho(-5.0f, 5.0f, -5.0f, 5.0f, 0.1f, 100.0f);
+        //projection = glm::ortho(-5.0f, 5.0f, -5.0f, 5.0f, 0.0f, 100.0f);
         glm::mat4 view = camera.GetViewMatrix();
 
         //modify uniforms and drawing
@@ -308,3 +310,5 @@ int main() {
     glfwTerminate();
     return 0;
 }
+
+*/
